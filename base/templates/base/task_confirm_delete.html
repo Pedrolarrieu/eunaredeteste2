@@ -1,0 +1,19 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <a href="{% url 'tasks' %}">
+        <i class="fas fa-backward"></i></a>
+</div>
+
+<div class="card-body">
+    <form method="POST">
+        {% csrf_token %}
+        <p>Tem certeza que você deseja deletar esta task? "{{task}}"</p>
+        <button class="fas fa-trash" type= "submit"></i>
+    </form>
+</div>
+
+
+
+{% endblock content %}

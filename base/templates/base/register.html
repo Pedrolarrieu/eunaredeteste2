@@ -1,0 +1,36 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<div class="header-bar">
+    <h1>Registro </h1>
+</div>
+
+<div class="card-body">
+    <form method="POST">
+        {% csrf_token %}
+        <label>{{form.username.label}}</label>
+        {{form.username}}
+
+        <label>{{form.password1.label}}</label>
+        {{form.password1}}
+
+        <label>{{form.password2.label}}</label>
+        {{form.password2}}
+        
+    </form>
+    <p>Já possui uma conta? <a href="{% url 'login' %}">
+        
+        
+        <button style="margin: top 5px;px ;" class="fas fa-sign-in-alt" type = "submit"></p>
+
+</div>
+
+<div>
+
+<p1>Eunarede Teste</p1>
+
+
+</div>
+
+
+{% endblock content %}
