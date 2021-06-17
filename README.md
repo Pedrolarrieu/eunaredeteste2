@@ -5,8 +5,8 @@
 
 # 1 - abra no Visual Studio 2019/2020 ou Pycharm
 # 2 - abra a pasta e execute o seguinte código no seu terminal : python manage.py runserver
-# 3 - Ao carregar a aplicação voce será direicionado a tela principal de login
-# 4 - após logar ou se regristrar, voce poderá criar, editar e apagar suas tasks.
+# 3 - Ao carregar a aplicação voce será direcionado a tela principal de login
+# 4 - após logar ou se registrar, voce poderá criar, editar e apagar suas tasks.
 
 
 #Criação de superusário.
